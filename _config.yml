@@ -1,0 +1,7 @@
+title: "FFS, Fenton"
+description: "Assorted grumbles, letters to nobody in particular, and one man's baffled admiration for an ideology he's fairly sure he disagrees with."
+theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
+plugins:
+  - jekyll-remote-theme
