@@ -1,0 +1,40 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ site.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=EB+Garamond:ital@0;1&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/book-home.css' | relative_url }}">
+</head>
+<body>
+<div class="shelf">
+  <div class="book">
+    <div class="book-spine"></div>
+    <div class="book-cover">
+      <p class="book-eyebrow">Letters, Grumbles &amp; Reluctant Second Thoughts</p>
+      <h1 class="book-title">{{ site.title }}</h1>
+      <p class="book-subtitle">{{ site.description }}</p>
+      <div class="book-clasp"></div>
+    </div>
+    <div class="page-edges">
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+    </div>
+    <div class="tabs">
+      <a href="{{ '/category/on-now/' | relative_url }}" class="tab tab-mustard" style="--i:0">On Now</a>
+      <a href="{{ '/category/on-reflection/' | relative_url }}" class="tab tab-sage" style="--i:1">On Reflection</a>
+      <a href="{{ '/category/on-family/' | relative_url }}" class="tab tab-rose" style="--i:2">On Family</a>
+      <a href="{{ '/category/on-politiks/' | relative_url }}" class="tab tab-slate" style="--i:3">On Politiks</a>
+      <a href="{{ '/category/on-pending/' | relative_url }}" class="tab tab-plum" style="--i:4">On Pending</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
